@@ -7,9 +7,6 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import matplotlib.pyplot as plt 
 import numpy as np
-from tqdm import tqdm, trange
-import cmdstanpy
-import pandas as pd
 
 class Encoder(nn.Module):
     ''' This the encoder part of VAE
